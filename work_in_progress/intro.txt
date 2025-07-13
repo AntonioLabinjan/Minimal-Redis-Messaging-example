@@ -5,3 +5,4 @@ Implement Redis queue for embedding processing
 - Suspect bug in the API endpoint or data serialization pipeline preventing enqueueing
 - Added basic logging to trace enqueue operations
 - Further debugging needed to identify exact failure point in embedding submission flow
+- goal 1...ensure embeddings are sent to redis
