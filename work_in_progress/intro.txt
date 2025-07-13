@@ -1,0 +1,7 @@
+Implement Redis queue for embedding processing
+
+- Added Redis queue mechanism to handle embedding messages asynchronously
+- Observed issue: queue remains empty, embeddings are not properly pushed into Redis
+- Suspect bug in the API endpoint or data serialization pipeline preventing enqueueing
+- Added basic logging to trace enqueue operations
+- Further debugging needed to identify exact failure point in embedding submission flow
