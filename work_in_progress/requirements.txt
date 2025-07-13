@@ -1,0 +1,7 @@
+flask
+torch
+transformers
+faiss-cpu
+opencv-python-headless
+gunicorn
+pillow
